@@ -161,4 +161,52 @@ section {
   }
  
 
-/* Media Queries to come here */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+      .section-title {
+        width: 80%;
+      }
+
+    /* MEDIA QUERY FOR TABLETS AND SMALLER */
+    @media screen and (max-width: 768px) {
+
+        section {
+          padding: 30px 15px;
+        }
+
+        section {
+          padding: 30px 15px;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
+          }
+
+        /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+      @media screen and (max-width: 575px) {
+
+        .section-title {
+          width: 95%;
+        }
