@@ -8,7 +8,7 @@ A mock-up of my first portfolio website.
 * CSS
 
 ## Website
-https://jason-ahmed-123.github.io/run-buddy/
+https://jason-ahmed-123.github.io/Week2-Challenge-Portfolio/
 
 ## Contribution
 Made with ❤️ by Jason Ahmed
