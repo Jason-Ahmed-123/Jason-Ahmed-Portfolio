@@ -26,7 +26,8 @@ header h1 {
     margin: 0;
     color: #fff;
     font-size: 44px;
-    line-height: 44px;
+    /* adjusts text poistion height inside header */
+    line-height: 60px;
 }
 
 header a {
@@ -71,13 +72,13 @@ section {
     background-position: center;
     background-attachment: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     height: 200px;
 }
 
-.hero-cta {
+.hero-slogan {
     width: 70%;
     text-align: right;
     margin: 5%;
@@ -86,8 +87,10 @@ section {
     line-height: 1.2;
 }
 
-.hero-cta h2 {
+.hero-slogan h2 {
     font-size: 55px;
+    text-shadow: 3px 2px navy;
+    /* text-align: right; */
   }
 /* HERO STYLE END */
 
@@ -159,6 +162,64 @@ section {
     grid-row-start: 3;
     grid-row-end: 4;
   }
+
+/* Apple styles for footer */
+
+footer {
+  padding: 0px 35px;
+  background: #293f50;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+  font-size: 32px;
+  /* adjusts text poistion height inside footer */
+  line-height: 82px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer nav {
+  margin: 7px 0;
+}
+
+footer nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+footer nav ul li {
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: medium;
+  font-size: 1.55vw;
+}
+
+footer nav ul li a {
+  padding: 10px 15px;
+  font-weight: medium;
+  font-size: 1.55vw;
+}
+
+footer nav ul li a:hover {
+  background: rgb(146, 219, 219);
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/* end styles for footer */
  
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
