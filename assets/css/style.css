@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url("../images/hero-bg.jpg");
+  /* background-image: url("../images/hero-bg.jpg"); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -67,7 +67,6 @@ section {
 
 /* Hero Style Start */
 .hero {
-  /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec7d26b1-d557-47c1-a877-6050004d2fc2/dbb7hcs-1f9e8f0a-c4c7-4fc9-baf6-9e075ce86e30.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWM3ZDI2YjEtZDU1Ny00N2MxLWE4NzctNjA1MDAwNGQyZmMyXC9kYmI3aGNzLTFmOWU4ZjBhLWM0YzctNGZjOS1iYWY2LTllMDc1Y2U4NmUzMC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.CQJpDNQVJCrDzz53ZDRjBm-4t6s6W3SR6S1Yp9aeWvg"); */
   background-image: url("../images/cyberpunk-background.jpg");
   background-size: cover;
   background-position: center;
