@@ -8,7 +8,7 @@ A mock-up of my first portfolio website.
 * CSS
 
 ## Website
-https://jason-ahmed-123.github.io/Week2-Challenge-Portfolio/
+https://jason-ahmed-123.github.io/Jason-Ahmed-Portfolio/
 
 ![portfolio screenshot](https://raw.githubusercontent.com/Jason-Ahmed-123/Week2-Challenge-Portfolio/master/assets/images/portfolio-screnshot.png)
 
